@@ -1,0 +1,14 @@
+{
+  "name": "com.nix.test",
+  "version": "1.0.0",
+  "displayName": "NIX Test",
+  "description": "This is an example package",
+  "unity": "2021.1",
+  "unityRelease": "0b5",
+  "dependencies": {
+  },
+  "author": {
+    "name": "Nix",
+    "email": "tientv.dev@gmail.com"
+  }
+}
