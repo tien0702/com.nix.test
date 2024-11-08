@@ -10,7 +10,7 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Release
-        uses: semantic-release/semantic-release@v3
+        uses: semantic-release/semantic-release@v4
         with:
           plugins: |
             @semantic-release/changelog
